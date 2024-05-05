@@ -1,0 +1,106 @@
+/* slider css start  */
+.slider_imgae img {
+    width:100%;
+    height:584px;
+}
+/* slider css end  */
+
+/* Every_moment css start  */
+.Every_moment_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.Every_moment img{
+    width:546px;
+    height:364px;
+}
+.every_button{
+    width:254px;
+    height: 54px;
+}
+/* Every_moment css end  */
+.package_hole_all{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:20px;
+  margin-top: 50px;
+}
+.happy_client_hole{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin-top: 50px;
+    
+}
+/* ----------------footer part css-------------- */
+.footer{
+    width:100%;
+    height:auto;
+    background: black;
+    color: white;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.footer_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    
+}
+/* ----------------footer part css-------------- */
+
+
+/* -------------------------------------
+Responside design through media query
+------------------------------------- */
+
+@media only screen and (max-width:576px){
+    .Every_moment_hole{
+        display: flex;
+        flex-direction: column;
+    }
+    .package_hole_all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+
+    }
+    .happy_client_hole {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (min-width:577px) and (max-width:992px){
+    .Every_moment_hole{
+        display: flex;
+        flex-direction: column;
+    }
+    .package_hole_all{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+
+    }
+    .happy_client_hole {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+    }
+    
+}
